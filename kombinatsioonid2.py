@@ -7,8 +7,8 @@ for i in range(7, n+1):
     if i == 7:
         korrad.append(63)
         continue
-    arv = eelmine*2 - korrad[i-8]
+    arv = (eelmine*2 - korrad[i-8]) % 1000000007
     korrad.append(arv)
     eelmine = arv
-tul = int(korrad[n-1]) % 1000000007
+tul = int(korrad[n-1])
 print(tul)
