@@ -17,7 +17,7 @@ for i in range(rida):
             for l in range(j, veerg):
                 jooksev_rida += pold[k][l]
                 eelmine = 0
-                if k != 0:
+                if k != i:
                     eelmine = abi_pold[k-1][l]
                 abi_pold[k][l] = jooksev_rida + eelmine
                 hetk_parim = jooksev_rida + eelmine
