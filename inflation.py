@@ -1,3 +1,4 @@
+import sys
 N = int(sys.stdin.readline())
 arvud = sys.stdin.readline().split()
 paevi = int(sys.stdin.readline())
